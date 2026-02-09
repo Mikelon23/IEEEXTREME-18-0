@@ -6,11 +6,11 @@
  * EXPLICACIÓN DEL ALGORITMO (ENFOQUE DE DOS PASADAS / TWO-PASS)
  * -----------------------------------------------------------------------------
  *
- * OBJETIVO:
+ * OBJETIVO
  * Encontrar la subcadena contigua más larga que tenga paréntesis correctamente balanceados.
  * Si no existe ninguna, retornar -1.
  *
- * PROBLEMA CON EL ENFOQUE INGENUO:
+ * PROBLEMA CON EL ENFOQUE INGENUO
  * Simplemente contar paréntesis abiertos y cerrados no es suficiente, porque
  * una cadena como ")(()" tiene 2 abiertos y 2 cerrados, pero no es válida.
  * El orden importa estrictamente.
