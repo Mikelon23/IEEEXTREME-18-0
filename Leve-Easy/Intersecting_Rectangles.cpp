@@ -3,7 +3,7 @@
  * LENGUAJE: C++
  *
  * ======================================================================================
- * ANÁLISIS DEL PROBLEMA Y ESTRATEGIA
+ * ANÁLISIS DEL PROBLEMA Y ESTRATEGIA PARA LA SOLUCION DEL EJERCICIO
  * ======================================================================================
  * 1. El problema pide contar pares de rectángulos que tienen una intersección
  * de área estrictamente mayor a 0.
