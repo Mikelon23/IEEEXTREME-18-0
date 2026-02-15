@@ -75,3 +75,17 @@ int main() {
 
     int N;
     if (cin >> N) {
+        // El primer término de la secuencia siempre es "1"
+        string current = "1";
+
+        // Iteramos N-1 veces para llegar al término N-ésimo.
+        // Si N=1, el bucle no se ejecuta y se imprime "1".
+        for (int i = 1; i < N; ++i) {
+            current = getNextTerm(current);
+        }
+
+        cout << current << endl;
+    }
+
+    return 0;
+}
