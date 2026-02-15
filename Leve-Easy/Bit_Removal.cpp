@@ -43,3 +43,24 @@ void solve() {
     // 1. Calculamos la intersección de bits (bits encendidos en ambos)
     int common_bits = x & y;
 
+    // 2. Aplicamos XOR para voltear esos bits específicos en x
+    //    Como sabemos que en 'x' esos bits son 1, al hacer XOR 1 se volverán 0.
+    int result = x ^ common_bits;
+
+    cout << result << "\n";
+}
+
+int main() {
+    // Optimización de I/O
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int T;
+    // Leemos el número de casos de prueba
+    if (cin >> T) {
+        while (T--) {
+            solve();
+        }
+    }
+    return 0;
+}
