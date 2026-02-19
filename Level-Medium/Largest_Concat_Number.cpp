@@ -1,11 +1,11 @@
 /**
  * SOLUCIÓN: El Número Concatenado Más Grande (Largest Concat Number)
  * -------------------------------------------------------------------------
- * PROBLEMA:
+ * PROBLEMA
  * Dada una lista de números (como cadenas de texto), concatenarlos en el
  * orden que forme el número total más grande posible.
  *
- * LA TRAMPA DEL ORDENAMIENTO NORMAL:
+ * LA TRAMPA DEL ORDENAMIENTO NORMAL
  * Si simplemente ordenamos alfabéticamente de mayor a menor, fallaremos.
  * Ejemplo: "3" y "32".
  * Orden normal descendente: "32", "3" -> Concatenado: "323".
@@ -25,7 +25,7 @@
  * b + a = "323"
  * Como "332" > "323", entonces "3" debe ir ANTES que "32".
  *
- * CASO BORDE IMPORTANTE:
+ * CASO BORDE IMPORTANTE
  * ¿Qué pasa si el arreglo es ["0", "0", "0"]?
  * Nuestro algoritmo lo ordenará y concatenará como "000".
  * Pero el número "000" matemáticamente es solo "0". Debemos manejar este caso.
