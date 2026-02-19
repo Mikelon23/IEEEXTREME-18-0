@@ -1,3 +1,6 @@
+- name: configure
+  run: ./configure
+
 name: C/C++ CI
 
 on:
