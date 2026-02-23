@@ -1,8 +1,4 @@
-- name: configure
-  run: ./configure
-
-name: C/C++ CI
-
+name: configure
 on:
   push:
     branches: [ "master" ]
